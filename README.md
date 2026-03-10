@@ -19,4 +19,4 @@ Transitioning to the C++11 standard and above, this list introduces smart pointe
 
 **Mini-Project: Genetic Algorithm (LcVRP)**
 ---
-The capstone of the repository is an optimizer based on the principles of Genetic Algorithms (AG). This project solves the Limited Capacitated Vehicle Routing Problem (LcVRP) by evolving a population of solutions. The architecture consists of a CGeneticAlgorithm class that orchestrates the evolutionary loop, CIndividual objects that handle crossover and mutation of genotypes, and a CEvaluator that calculates the fitness of solutions based on problem-specific constraints
+The capstone of the repository is an optimizer based on the principles of Genetic Algorithms (AG). This project solves the Limited Capacitated Vehicle Routing Problem (LcVRP) by evolving a population of solutions. The architecture consists of a GeneticAlgorithm class that orchestrates the evolutionary loop, Individual objects that handle crossover and mutation of genotypes, and a Evaluator that calculates the fitness of solutions based on problem-specific constraints
